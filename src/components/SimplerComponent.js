@@ -6,8 +6,9 @@ export default class SimplerComponent extends Component {
   handleClick = () => {
     //does a thing
   }
-
-  return(
-    <div onClick={this.handleClick}>I am just happy</div>
-  )
+  render(){
+    return(
+      <div onClick={this.handleClick}>I am just happy</div>
+    )
+  }
 }
