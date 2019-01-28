@@ -1,4 +1,5 @@
 // Code SimplerComponent Here
+
 const SimpleComponent = () => {
   handleClick = () => {
     return <div>'So nice I can say it twice!'</div>
@@ -8,3 +9,5 @@ const SimpleComponent = () => {
     <div onClick={this.handleClick}>'I am just happy'</div>
   )
 }
+
+export default SimpleComponent
