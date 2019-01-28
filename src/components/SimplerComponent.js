@@ -1,7 +1,7 @@
 // Code SimplerComponent Here
-import React, {Component} from 'react';
 
-export default class SimplerComponent extends Component {
+
+const SimplerComponent = () => {
 
   handleClick = () => {
     //does a thing
