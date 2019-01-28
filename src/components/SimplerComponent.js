@@ -3,8 +3,8 @@
 
 const SimplerComponent = () => {
 
-  handleClick = () => {
-    //does a thing
+  handleClick = (e) => {
+    e.target.style.background = 'red'
   }
 
   return(
