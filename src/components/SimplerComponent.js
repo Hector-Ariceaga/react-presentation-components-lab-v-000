@@ -1,7 +1,7 @@
 // Code SimplerComponent Here
 
 
-const SimplerComponent = () => {
+const SimplerComponent = props => {
 
   handleClick = (e) => {
     e.target.style.background = 'red'
