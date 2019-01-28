@@ -9,4 +9,3 @@ export default class SimpleComponent extends Component {
     <div onClick={this.handleClick}>I am just happy</div>
   )
 }
-
