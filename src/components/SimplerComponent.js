@@ -1,7 +1,7 @@
 // Code SimplerComponent Here
 const SimpleComponent = () => {
-  handleClick = (e) => {
-    e.target.append('!')
+  handleClick = () => {
+    return <div>So nice I can say it twice!</div>
   }
 
   return(
