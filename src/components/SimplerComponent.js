@@ -8,7 +8,7 @@ const SimplerComponent = props => {
   }
 
   return(
-    <div onClick={this.handleClick}>I am just happy</div>
+    <div onClick={this.props.handleClick}>I am just happy</div>
   )
 }
 
